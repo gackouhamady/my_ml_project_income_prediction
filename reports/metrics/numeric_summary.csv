@@ -1,0 +1,10 @@
+feature,count,missing,mean,std,p01,p50,p99
+age,0,0,,,,,
+wage_per_hour,0,0,,,,,
+capital_gains,0,0,,,,,
+capital_losses,0,0,,,,,
+dividends_from_stocks,0,0,,,,,
+num_persons_worked_for_employer,0,0,,,,,
+weeks_worked_in_year,0,0,,,,,
+instance_weight,0,0,,,,,
+year,0,0,,,,,
