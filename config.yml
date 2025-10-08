@@ -1,0 +1,3 @@
+# minimal config
+project: your_project_name
+seed: 42
