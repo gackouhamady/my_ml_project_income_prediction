@@ -1,1 +1,53 @@
-# Add your Python dependencies here
+# ===========================
+# requirements.txt
+# Census Income Classification (CPS/ASEC)
+# Python 3.10+
+# ===========================
+
+# --- Core data stack ---
+numpy~=1.26.4
+pandas~=2.2.2
+pyarrow~=17.0.0           # fast parquet/csv i/o (optional but recommended)
+scipy~=1.13.1
+joblib~=1.4.2
+
+# --- Modeling / ML ---
+scikit-learn~=1.5.1
+xgboost~=2.1.1
+lightgbm~=4.3.0
+imbalanced-learn~=0.12.3  # handling class imbalance (SMOTE, etc.)
+
+# --- Metrics & explainability ---
+shap~=0.46.0
+
+# --- Config / CLI utils ---
+PyYAML~=6.0.2             # parse config.yml
+
+# --- Visualization (EDA, reports) ---
+matplotlib~=3.9.2
+plotly~=5.24.1
+seaborn~=0.13.2           # optional for EDA (do not use in prod plots if you prefer pure matplotlib)
+
+# --- Notebooks ---
+jupyterlab~=4.2.5
+ipykernel~=6.29.5
+nbformat~=5.10.4
+papermill~=2.6.0          # optional: parameterize notebooks
+
+# --- Logging & utilities ---
+tqdm~=4.66.5
+rich~=13.9.2
+
+# --- Reproducibility (optional but useful) ---
+python-dotenv~=1.0.1      # load .env for data paths, keys
+
+# --- Testing & linting (optional; move to requirements-dev.txt if you prefer) ---
+pytest~=8.3.3
+pytest-cov~=5.0.0
+black~=24.8.0
+ruff~=0.6.8
+pre-commit~=3.8.0
+
+# --- Experiment tracking (optional) ---
+mlflow~=2.16.0            # comment out if you don’t use MLflow
+wandb~=0.17.9             # or Weights & Biases (optional)
