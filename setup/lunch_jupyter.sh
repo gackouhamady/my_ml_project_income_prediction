@@ -1,5 +1,1 @@
-jupyter lab \
-  --ServerApp.ip=0.0.0.0 \
-  --ServerApp.port=${PORT:-8888} \
-  --ServerApp.open_browser=False \
-  --IdentityProvider.token=''
+jupyter lab --ServerApp.ip=0.0.0.0 --ServerApp.port=${PORT:-8888} --ServerApp.open_browser=False --IdentityProvider.token=''
